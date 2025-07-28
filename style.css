@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;   
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-container{
+    padding: 20px;
+    margin: 10px;
+    max-width: 500px;
+    background-color: bisque;
+    border: 2px solid rgb(252, 169, 69);
+}
+.form-container h1{
+    color: chocolate;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.user-form{
+    display:grid;
+    align-content: center;
+}
+
+input, textarea {
+    width: 300px;
+    padding: 8px;
+    margin-top: 4px;
+    margin-bottom: 12px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgba(210, 105, 30, 0.758);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:burlywood;
+}
+
+
+.resume-container{
+    max-width: 800px;
+    display:inline-block;
+    margin-left: 40px;
+    padding: 20px;
+    border: 2px solid #e3e3e3;
+    background-color: #fcfbfb;
+    color: rgb(14, 13, 11);
+}
+
+.user-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.details h3{
+    font-size: 1.5rem;
+    margin-bottom: 4px;
+}
+.details h6{
+    font-size:1rem;
+    margin: 2px;
+    font-weight: lighter;
+}
+.details a{
+    font-size:.8rem;
+    display: flex;
+    margin: 2px;
+}
+
+.profile{
+    width: 70px;
+    height: 70px;
+    background-color: blueviolet;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.profile img{
+    width: 100%;
+    height: 100%;
+    padding-right: 10px;
+    object-fit: cover;
+   
+}
+
+.about h2{
+    padding: 3px;
+    margin-top: 5px;
+    background-color: rgba(128, 128, 128, 0.589);
+    font-size:1rem;
+    border-radius: 10px;
+
+}
+.about p{
+    font-size: .7rem;
+    padding: 5px;
+}
+
+.education h2{
+    padding: 3px;
+    margin-top: 5px;
+    background-color: rgba(128, 128, 128, 0.589);
+    font-size:1rem;
+    border-radius: 10px;
+}
+
+.education-details{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    padding-left: 5px;
+    margin-top: 5px;
+}
+.education p{
+    font-size: .7rem;
+    padding-left: 5px;
+}
+
+.skills h2 {
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: rgba(128, 128, 128, 0.589);
+  border-radius: 10px;
+  padding: 3px;
+  margin-top:5px;
+}
+
+.skills h6 {
+  display: inline-block;
+  margin: 4px;
+  padding: 6px 10px;
+  border-radius: 5px;
+}
+
+
+.projects h2{
+    padding: 3px;
+    margin-top: 5px;
+    background-color: rgba(128, 128, 128, 0.589);
+    font-size:1rem;
+    border-radius: 10px;
+}
+.project-details{
+    display: flex;
+}
+.project-details a{
+    font-size: .7rem;
+}
+.projects h6{
+    padding-left: 5px;
+}
+.projects p{
+    padding-left: 5px;
+    font-size: .7rem;
+}
+
+.resume-container {
+    display: none;
+}
